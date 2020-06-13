@@ -170,8 +170,8 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
     ?>
 
 </div>
-<script src="Login/assets/js/app.js"></script>
-<script src="Login/js/jquery-3.3.1.min.js"></script>
-<script src="Login/js/index.js"></script>
+<script src="LoginMasuk/assets/js/app.js"></script>
+<script src="LoginMasuk/js/jquery-3.3.1.min.js"></script>
+<script src="LoginMasuk/js/index.js"></script>
 </body>
 </html>
