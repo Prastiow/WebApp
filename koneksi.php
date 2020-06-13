@@ -1,8 +1,8 @@
 <?php
 $server = 'localhost'; // Nama Server
-$user = 'id13530425_kependudukan'; // User Server
-$password = 'Itadakimasu319,'; // Password Server
-$nama_database = 'id13530425_kependudukan_db'; // Nama Database
+$user = 'tifecom_Triprastio'; // User Server
+$password = 'Tiodesune319'; // Password Server
+$nama_database = 'tifecom_Prastio'; // Nama Database
 
 
 

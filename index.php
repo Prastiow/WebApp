@@ -7,7 +7,7 @@ include("koneksi.php");
 $Id_User = isset($_SESSION['Id_User']) ? $_SESSION['Id_User'] : false;
 
 if ($Id_User) {
-    header("location: https://triprastion.000webhostapp.com/index1.php");
+    header("location: https://triprastion.tif18e.com/index1.php");
 }
 
 $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
