@@ -25,7 +25,7 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Login/css/style.css">
-    <link rel="icon" href="Login/assets/img/basic/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="LoginMasuk/assets/img/basic/favicon.ico" type="image/x-icon">
     <title>Tri Prastio Nugroho</title>
 </head>
 <body style="background-color: #f8f8f8;" class="light sidebar-mini sidebar-collapse">
@@ -84,18 +84,18 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
             <div></div>
         </div>
         <div class="tabs">
-            <form action="<?php echo "https://triprastion.000webhostapp.com/Login/proses-masuk.php"?>" method="POST" class="needs-validation" novalidate>
+            <form action="<?php echo "https://triprastion.tif18e.com/LoginMasuk/proses-masuk.php"?>" method="POST" class="needs-validation" novalidate>
                 <div class="inputs">
                     <div class="input">
                         <input class="form-control" placeholder="Email" type="email" name="email" required>
-                        <img src="Login/img/mail.svg">
+                        <img src="LoginMasuk/img/mail.svg">
                         <div class="invalid-feedback">
                             Tolong Masukkan Email.
                         </div>
                     </div>
                     <div class="input">
                         <input class="form-control" placeholder="Password" type="password" name="password" required>
-                        <img src="Login/img/pass.svg">
+                        <img src="LoginMasuk/img/pass.svg">
                         <div class="invalid-feedback">
                             Tolong Masukkan Password.
                         </div>
@@ -107,7 +107,7 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
                 </div>
                 <input type="submit" class="button" name="submit" value="Masuk">
             </form>
-            <form action="<?php echo "https://triprastion.000webhostapp.com/Login/proses-daftar.php"?>" method="POST" class="needs-validation" novalidate>
+            <form action="<?php echo "https://triprastion.tif18e.com/LoginMasuk/proses-daftar.php"?>" method="POST" class="needs-validation" novalidate>
                 <?php
                 $nama = isset($_GET['nama']) ? $_GET['nama'] : false;
                 ?>
@@ -117,26 +117,26 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
                         if ($notif == "email") {
                             echo "
                             <input class='form-control is-invalid' placeholder='Email' type='email' name='email' required>
-                            <img src='Login/img/mail.svg'>
+                            <img src='LoginMasuk/img/mail.svg'>
                             <div class='invalid-feedback'>Email Sudah Terdaftar.</div>";
                         } else {
                             echo "
                             <input class='form-control' placeholder='Email' type='email' name='email' required>
-                            <img src='Login/img/mail.svg'>
+                            <img src='LoginMasuk/img/mail.svg'>
                             <div class='invalid-feedback'>Tolong Masukkan Email.</div>";
                         }
                         ?>
                     </div>
                     <div class="input">
                         <input class="form-control" placeholder="Nama Lengkap" type="text" name="nama" value="<?php echo $nama;?>" required>
-                        <img src="Login/img/user.svg">
+                        <img src="LoginMasuk/img/user.svg">
                         <div class="invalid-feedback">
                             Tolong Masukkan Nama Anda.
                         </div>
                     </div>
                     <div class="input">
                         <input class="form-control" placeholder="Password" type="password" name="password" required>
-                        <img src="Login/img/pass.svg">
+                        <img src="LoginMasuk/img/pass.svg">
                         <div class="invalid-feedback">
                             Tolong Masukkan Password.
                         </div>
