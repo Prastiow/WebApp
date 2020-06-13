@@ -24,7 +24,7 @@ $notif = isset($_GET['notif']) ? $_GET['notif'] : false;
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css/"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="Login/css/style.css">
+    <link rel="stylesheet" type="text/css" href="LoginMasuk/css/style.css">
     <link rel="icon" href="LoginMasuk/assets/img/basic/favicon.ico" type="image/x-icon">
     <title>Tri Prastio Nugroho</title>
 </head>
